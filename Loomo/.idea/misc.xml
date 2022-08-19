@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ACA/Loomo/workspace/3_LooMotion/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.23125" />
+        <entry key="..\:/ACA/Loomo/workspace/3_LooMotion/app/src/main/res/drawable/ic_launcher_background.xml" value="0.23125" />
+        <entry key="..\:/ACA/Loomo/workspace/3_LooMotion/app/src/main/res/layout/activity_main.xml" value="0.5254854368932039" />
+        <entry key="..\:/ACA/Loomo/workspace/3_LooMotion/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.23125" />
+        <entry key="..\:/ACA/Loomo/workspace/3_LooMotion/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.23125" />
+        <entry key="..\:/ACA/Loomo/workspace/4_Loomo_Debugging/app/src/main/res/layout/activity_main.xml" value="0.4421875" />
+        <entry key="..\:/ACA/Loomo/workspace/DemoRefactor/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.56640625" />
+        <entry key="..\:/ACA/Loomo/workspace/DemoRefactor/app/src/main/res/drawable/ic_launcher_background.xml" value="0.56640625" />
+        <entry key="..\:/ACA/Loomo/workspace/DemoRefactor/app/src/main/res/layout/activity_main.xml" value="0.67" />
+        <entry key="..\:/ACA/Loomo/workspace/LoomoUDP/app/src/main/res/layout/activity_main.xml" value="0.75" />
+        <entry key="..\:/Coding/AndroidWorkspace/Demo/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/Workshop/Loomo/Loomo_Phase2/workspace/4_Loomo_Debugging/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Workshop/Loomo/Loomo_Phase2/workspace/5_LooSLAM/app/src/main/res/layout/activity_main.xml" value="0.25364583333333335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
