@@ -82,10 +82,10 @@ public class MovementUnit extends Thread {
                     switch (order.mode){
                         case LoomOrder.RAW_MODE:{
                             // Avoid collision
-                            if( dist< MIN_DIST && order.rawY > 0){
-                                base.setLinearVelocity(0);
-                                continue;
-                            }
+//                            if( dist< MIN_DIST && order.rawY > 0){
+//                                base.setLinearVelocity(0);
+//                                continue;
+//                            }
 
                             base.setAngularVelocity((float)order.rawX);
                             base.setLinearVelocity((float)order.rawY);

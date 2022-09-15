@@ -17,6 +17,8 @@ import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.loomoserver.R;
+
 import bluetooth.loomo.bluetooth.BlueToothController;
 import bluetooth.loomo.bluetooth.connect.ConnectThread;
 import bluetooth.loomo.bluetooth.connect.BTConst;
@@ -210,11 +212,11 @@ public class ControlPanel extends AppCompatActivity {
         String data = String.valueOf(message.obj);
         LoomState msg = new LoomState(data);
 
-//        textCoord_x.setText(("X: " + msg.posX).toCharArray(), 0, 10);
-//        textCoord_y.setText(("Y: " + msg.posY).toCharArray(), 0, 11);
-//        textTheta.setText(msg.angular + " rad/s");
-//
-//        textComment.setText(msg.comment);
+        textCoord_x.setText(("X: " + msg.posX).toCharArray(), 0, 10);
+        textCoord_y.setText(("Y: " + msg.posY).toCharArray(), 0, 11);
+        textTheta.setText(msg.theta + " rad/s");
+
+        textComment.setText(msg.comment);
     }
 
 

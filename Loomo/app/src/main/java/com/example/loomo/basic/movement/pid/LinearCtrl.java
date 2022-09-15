@@ -81,7 +81,11 @@ public class LinearCtrl {
 
         if(distSlot.isClear()){
             for(int i = 0; i < distSlot.getLength(); i++){
-                distSlot.push(0);
+                dist = (float) Math.sqrt(
+                        (currentX - originX) * (currentX - originX)
+                                + (currentY - originY) * (currentY - originY)
+                );
+                distSlot.push(dist);
             }
 
             this.originX = currentX;
@@ -119,11 +123,12 @@ public class LinearCtrl {
         iSpeed = deltaDist < DIST_KP_DISABLE_THRE ? distError * DIST_KI : 0;
         iSpeed = Calc.clamp(MAX_LINEAR_I_SPEED, iSpeed);
 
-        speed = pSpeed + iSpeed;
+        speed = pSpeed;
+//        speed = pSpeed + iSpeed;
 
-        if(Math.abs(deltaDist) < LINEAR_BRAKE_THRE){
-            speed = pSpeed;
-        }
+//        if(Math.abs(deltaDist) < LINEAR_BRAKE_THRE){
+//            speed = pSpeed;
+//        }
 
         /* *********************
          * Terminate condition *
